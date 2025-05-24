@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hexadecimal Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator" id="calculator">
+    <input type="text" id="display" readonly placeholder="0">
+     <div class="menu">
+                <ul>
+                    <li><a href="index.html">Decimal</a></li>
+                    <li><a href="binary.html">Binary</a></li>
+                    <li><a href="hexadecimal.html">Hexadecimal</a></li>
+                   
+                </ul>
+            </div>
+    
+ 
+      <div id="keys" class="buttons">
+      <button onclick="clearDisplay()"class="operator-btn1">AC</button>
+      <button onclick="deleteLast()"class="operator-btn1">DEL</button>
+      <button onclick="appendOperator('%')"class="operator-btn1">%</button>
+       <button onclick="appendOperator('/')"class="operator-btn1">/</button>
+      </div>
+      <div id="keys" class="buttons">
+      
+      <button onclick="appendValue('1')">1</button>
+      <button onclick="appendValue('2')">2</button>
+      <button onclick="appendValue('3')">3</button>
+              <button onclick="appendOperator('+')"class="operator-btn1">+</button>
+</div>
+      <div id="keys" class="buttons">
+      <button onclick="appendValue('4')">4</button>
+      <button onclick="appendValue('5')">5</button>
+      <button onclick="appendValue('6')">6</button>
+        
+      <button onclick="appendOperator('-')"class="operator-btn1">-</button>
+      </div>
+      <div id="keys" class="buttons">
+      <button onclick="appendValue('7')">7</button>
+      <button onclick="appendValue('8')">8</button>
+      <button onclick="appendValue('9')">9</button>
+         
+      <button onclick="appendOperator('*')"class="operator-btn1">*</button>
+     
+      </div>
+      <div id="keys" class="buttons">
+      <button onclick="appendValue('A')">A</button>
+      <button onclick="appendValue('B')">B</button>
+      <button onclick="appendValue('C')">C</button>
+           
+      <button onclick="appendValue('.')"class="operator-btn1">.</button>
+
+      </div>
+      <div id="keys" class="buttons">
+      <button onclick="appendValue('C')">D</button>
+      <button onclick="appendValue('D')">E</button>
+      <button onclick="appendValue('E')">F</button>
+        
+      <button onclick="calculate()"class="operator-btn">=</button>
+      </div>
+      <div id="keys" class="buttons">
+      <button onclick="appendValue('F')">0</button>
+      </div>
+    
+   
+    
+    </div>
+ 
+
+  <script src="script2.js"></script>
+</body>
+</html>
