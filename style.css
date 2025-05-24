@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+#calculator {
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 2rem;
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+#display {
+    width: 100%;
+    padding: 1rem;
+    font-size: 2.5rem;
+    text-align: right;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+button {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: -4px -4px 10px rgba(253, 251, 251, 0.3);
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active {
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn {
+    background-color: hsl(40, 100%, 50%);
+}
+
+.operator-btn:hover,
+.operator-btn:active {
+    background-color: hsl(35, 100%, 65%);
+}
+
+.operator-btn1 {
+    color: greenyellow;
+}
+
+/* Menu styles */
+.menu {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+ul li {
+    font-size: 1.1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+/* Responsive design for small devices */
+@media (max-width: 600px) {
+    #display {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+    }
+}
