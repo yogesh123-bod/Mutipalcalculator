@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calculator" class="calculator">
+  
+    <input type="text" id="display" readonly placeholder="0">
+      <div class="menu">
+                <ul>
+                    <li><a href="index.html">Decimal</a></li>
+                    <li><a href="binary.html">Binary</a></li>
+                    <li><a href="hexadecimal.html">Hexadecimal</a></li>
+                   
+                </ul>
+            </div>
+    <div id="keys" class="buttons">
+      <button onclick="clearDisplay()"class="operator-btn1">AC</button>
+      <button onclick="oneDisplay()"class="operator-btn1">DEL</button>
+      <button onclick="appendOperator('%')"class="operator-btn1">%</button>
+      <button onclick="appendOperator('/')"class="operator-btn1">/</button>
+    </div>
+    <div  id="keys" class="buttons" >
+      <button onclick="appendValue('0')">0</button>
+      <button onclick="appendValue('1')">1</button>
+      <button onclick="appendOperator('+')"class="operator-btn1">+</button>
+      <button onclick="appendOperator('-')"class="operator-btn1">-</button>
+    </div>
+      <div id="keys"  class="buttons">
+      <button onclick="appendOperator('*')"class="operator-btn1">*</button>
+      <button onclick="calculate()" class="operator-btn">=</button>
+     </div>
+    
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
