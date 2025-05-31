@@ -34,7 +34,7 @@ https://mutipalcalculator.netlify.app/
 
 ### ✅ Usage
 
-To utilize the calculators, navigate to https://multi-calculator.netlify.app/ using a web browser with JavaScript enabled. Select the desired calculator category, input the necessary values, and the tool will display the computed result instantly.
+To utilize the calculators, navigate to https://mutipalcalculator.netlify.app/ using a web browser with JavaScript enabled. Select the desired calculator category, input the necessary values, and the tool will display the computed result instantly.
 Multi Calculator
 
 If you need further assistance or have specific questions about any of the calculators, feel free to ask!
