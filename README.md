@@ -4,8 +4,20 @@
 ### Description
 
 The website at MutipalCalculator is a comprehensive, browser-based calculator offering a wide range of tools across various categories. It's designed to provide quick and convenient calculations without the need for installations or sign-ups.
+
 ### Visite Website
 https://mutipalcalculator.netlify.app/
+
+
+### Screenshots
+
+![Image](https://github.com/user-attachments/assets/02505465-b683-4d05-8dea-d67a8e759166)
+
+![Image](https://github.com/user-attachments/assets/a254fe99-b17e-428d-ad7f-6e67ae773a06)
+
+![Image](https://github.com/user-attachments/assets/8a30cbfc-42ba-4fbd-a6dd-ef0e4a3f009e)
+
+
 
 
 ### 🔢 Key Features
